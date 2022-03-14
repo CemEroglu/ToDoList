@@ -13,7 +13,7 @@ const todos = [
     
         <ul>
         {todos.map(todo=>{
-            return <ToDoItem id={todo.id} title={todo.title} isTaskCompleted={todo} />
+            return <ToDoItem id={todo.id} title={todo.title} isTaskCompleted={todo.isTaskCompleted} />
         })}
         
         </ul>
