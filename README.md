@@ -49,6 +49,7 @@ This project has been developed by Cem Eroglu
   ```sh
   npm start
   ```
-
+##First Look of the project
+![](screenshots/Firstlook.JPG)
 ## Communication
 You can reach me via my e-mail for anything related: cemeroglu96@gmail.com
