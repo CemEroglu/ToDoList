@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { addTodoAsync } from '../redux/todoSlice';
 
 const AddTodoForm = () => {
+	//value of the new task input
 	const [value, setValue] = useState('');
 	const dispatch = useDispatch();
 
