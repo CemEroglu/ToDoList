@@ -1,15 +1,18 @@
-import './App.css';
-import ToDoList from './components/ToDoList';
-import AddTodoForm from './components/AddToDoForm';
-import Summary from './components/Summary';
-function App() {
-  return (
-    <div className=''>
-      <AddTodoForm></AddTodoForm>
-      <ToDoList></ToDoList>
-      <Summary></Summary>
-    </div>
-  );
-}
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AddTodoForm from './components/AddTodoForm';
+import TodoList from './components/TodoList';
+import Summary from './components/Summary'
+
+const App = () => {
+	return (
+		<div className='container bg-white p-4 mt-5'>
+			<h1>Todo List</h1>
+			<AddTodoForm />
+			<TodoList />
+			<Summary />
+		</div>
+	);
+};
 
 export default App;

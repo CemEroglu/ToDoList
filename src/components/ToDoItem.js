@@ -1,19 +1,36 @@
-import React from "react";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { toggleCompleteAsync, deleteTodoAsync } from '../redux/todoSlice';
 
-const ToDoItem = ({ id, title, isTaskCompleted }) => {
-    return (
-        <div>
-            <li className=''>
-                <div className=''>
-                    <span className=''>
-                        <input type='checkbox' className='' checked={isTaskCompleted}></input>
-                        {title}
-                    </span>
-                    <button className=''>Delete</button>
-                </div>
-            </li>
-        </div>
-    );
-}
+const TodoItem = ({ id, title, completed }) => {
+	const dispatch = useDispatch();
 
-export default ToDoItem;
+	const handleCheckboxClick = () => {
+		dispatch(toggleCompleteAsync({ id, completed: !completed }));
+	};
+
+	const handleDeleteClick = () => {
+		dispatch(deleteTodoAsync({ id }));
+	};
+
+	return (
+		<li className={`list-group-item ${completed && 'list-group-item-primary'}`}>
+			<div className='d-flex justify-content-between'>
+				<span className='d-flex align-items-center'>
+					<input
+						type='checkbox'
+						className='mx-3'
+						checked={completed}
+						onClick={handleCheckboxClick}
+					></input>
+					{title}
+				</span>
+				<button onClick={handleDeleteClick} className='btn btn-danger'>
+					Delete
+				</button>
+			</div>
+		</li>
+	);
+};
+
+export default TodoItem;
