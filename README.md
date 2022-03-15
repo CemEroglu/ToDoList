@@ -50,6 +50,6 @@ This project has been developed by Cem Eroglu
   npm start
   ```
 ##First Look of the project
-![](screenshots/Firstlook.JPG)
+![](screenshots/CheckATask.png)
 ## Communication
 You can reach me via my e-mail for anything related: cemeroglu96@gmail.com
