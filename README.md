@@ -6,16 +6,31 @@ This project has been developed by Cem Eroglu
   Clone the project from my Git repository. 
   Command: 
   ```sh
-  git clone https://github.com/CemEroglu/ToDoList.git <br/>
+  git clone https://github.com/CemEroglu/ToDoList.git
   ```
 
-  You can also find from my Github account: https://github.com/CemEroglu <br/>
+  You can also find from my Github account: 
+  ```sh
+  https://github.com/CemEroglu 
+  ```
 
 ## Installing and running Fake Back-end
-  Change directory to the project folder: cd TodoList <br/>
-  Change directory to the back-end folder: cd api <br/>
-  Run " npm install " to install node_modules. <br/>
+  Change directory to the project folder: 
+  ```sh
+  cd TodoList <br/>
+  ```
+  Change directory to the back-end folder: 
+  ```sh
+  cd api <br/>
+  ```
+  Run " npm install " to install node_modules. 
+  ```sh
+  nom install
+  ```
   Run "npm run server" to start the project. It will serve from 7000 port. Don't close the command line until when you will also close the UI <br/>
+  ```sh
+  npm run server
+  ```
 
 ## Installing and running React App 
   Change directory to the project folder: cd TodoApp <br/>
