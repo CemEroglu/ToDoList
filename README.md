@@ -3,7 +3,12 @@ This project has been developed by Cem Eroglu
 
 ## Cloning
   Make sure Node.js is installed to your computer.(https://nodejs.org/en/)<br/>
-  Clone the project from my Git repository. Command: git clone https://github.com/CemEroglu/ToDoList.git <br/>
+  Clone the project from my Git repository. 
+  Command: 
+  ```sh
+  git clone https://github.com/CemEroglu/ToDoList.git <br/>
+  ```
+
   You can also find from my Github account: https://github.com/CemEroglu <br/>
 
 ## Installing and running Fake Back-end
