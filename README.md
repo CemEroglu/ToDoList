@@ -1,4 +1,4 @@
-# Todo List Project
+# TodoList Project
 This project has been developed by Cem Eroglu
 
 ## Cloning
