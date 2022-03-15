@@ -51,5 +51,7 @@ This project has been developed by Cem Eroglu
   ```
 ##First Look of the project
 ![](screenshots/CheckATask.png)
+![](screenshots/FirstLook.JPG)
+
 ## Communication
 You can reach me via my e-mail for anything related: cemeroglu96@gmail.com
